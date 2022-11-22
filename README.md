@@ -1,12 +1,12 @@
 # LoginEnterpriseCLI
-Experimental CLI for interacting with Login Enterprise v5 and v6-preview endpoints.
+Experimental CLI for interacting with Login Enterprise v5 and v6-preview endpoints. Note, not every endpoint has been tested at this stage.
 
 Please navigate to the v5 or v6_preview folders for extensive documentation and example code snippets on every available command.
 
 Generally, this is the process to get started.
 
 1. Download the ZIP file containing the repository files.
-2. In a Powershell 7 window, navigate to the directory.
+2. In a Powershell window (v6.3 or greater), navigate to the directory of your desired API version.
 3. Run the following commands
 
 ``` 
@@ -28,8 +28,5 @@ $DefaultHeaders = @{
 }
 
 # Set API connection configuation
-Set-Configuration \
-  -BaseUrl $BaseUrl
-  -AccessToken $AccessToken
-  -DefaultHeaders $DefaultHeaders
+Set-Configuration -BaseUrl $BaseUrl -AccessToken $AccessToken -DefaultHeaders $DefaultHeaders
 ```
