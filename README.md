@@ -1,5 +1,5 @@
 # LoginEnterpriseCLI
-Experimental CLI for interacting with Login Enterprise v5 and v6-preview endpoints. Note, not every endpoint has been tested at this stage.
+Experimental CLI for interacting with Login Enterprise v5 and v6-preview endpoints. This is not officially supported in any way.
 
 Please navigate to the v5 or v6_preview folders for extensive documentation and example code snippets on every available command.
 
